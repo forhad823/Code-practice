@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <h2>Looping an Array!!!</h2>
-    <h3>Javascript array</h3>
+    <h1>JavaScript Arrays</h1>
+    <h2>The forEach() Method</h2>
+
+    <p>Call a function for each array element:</p>
 
     <p id="demo"></p>
 
     <script>
       const fruits = ["Banana", "Orange", "Apple", "Mango"];
-      let fLen = fruits.length;
 
       let text = "<ul>";
-      for (let i = 0; i < fLen; i++) {
-        text += "<li>" + fruits[i] + "</li>";
-      }
+      fruits.forEach(myFunction);
       text += "</ul>";
 
       document.getElementById("demo").innerHTML = text;
+
+      function myFunction(value) {
+        text += "<li>" + value + "</li>";
+      }
     </script>
-    <!--Added this comment feature as a part of git practice in VScode-->
   </body>
 </html>

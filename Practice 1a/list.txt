@@ -19,3 +19,18 @@ Array flat()
 Array splice()
 Array toSpliced()
 Array slice()
+
+
+Array Find and Search Methods
+Array indexOf()
+Array lastIndexOf()
+Array includes()
+
+
+See Also:
+Basic Methods
+Sort Methods
+Iteration Methods	Array find()
+Array findIndex()
+Array findLast()
+Array findLastIndex()
